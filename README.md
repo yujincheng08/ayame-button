@@ -1,13 +1,13 @@
 # Ayame button
 
-Ayame button [Click here to visit https://nakiriayame.moe](https://aquaminato.moe)
+Ayame button [Click here to visit https://nakiriayame.moe](https://nakiriayame.moe)
 
 
 Related Links:
 
-* [Aqua Minato's Youtube channel](https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg)
+* [Ayame Minato's Youtube channel](https://www.youtube.com/channel/UC7fk0CB07ly8oSl0aqKkqFg?sub_confirmation=1)
 
-* [Aqua Minato's Twitter](https://twitter.com/minatoaqua)
+* [Ayame Minato's Twitter](https://twitter.com/nakiriayame)
 
 ## 参与完善本项目
 
