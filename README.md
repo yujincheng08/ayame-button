@@ -2,6 +2,7 @@
 
 Ayame button [Click here to visit https://nakiriayame.moe](https://nakiriayame.moe)
 
+[![Build Status](https://travis-ci.org/cololi/ayame-button.svg?branch=master)](https://travis-ci.org/cololi/ayame-button)
 
 Related Links:
 
