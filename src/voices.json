@@ -22,7 +22,24 @@
                         "zh-CN": "光速道歉*6",
                         "ja-JP": "ごめん*6"
                     }
+                },
+                {
+                    "name": "a-3",
+                    "path": "a-3.mp3",
+                    "description": {
+                        "zh-CN": "发动机",
+                        "ja-JP": "エンジン"
+                    }
+                },
+                {
+                    "name": "a-4",
+                    "path": "a-4.mp3",
+                    "description": {
+                        "zh-CN": "夸！决斗吧！",
+                        "ja-JP": "湊！勝負だ！"
+                    }
                 }
+
             ]
         },
         {
@@ -41,9 +58,7 @@
                 "zh-CN": "打招呼",
                 "ja-JP": "挨拶"
             },
-            "voiceList": [
-
-            ]
+            "voiceList": []
         },
         {
             "categoryName": "modal",
@@ -61,7 +76,16 @@
                 "zh-CN": "叫声",
                 "ja-JP": "鳴き声"
             },
-            "voiceList": []
+            "voiceList": [
+                {
+                    "name": "a-5",
+                    "path": "a-5.mp3",
+                    "description": {
+                        "zh-CN": "笑",
+                        "ja-JP": "笑"
+                    }
+                }
+            ]
         },
         {
             "categoryName": "negation",
