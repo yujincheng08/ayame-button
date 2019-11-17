@@ -71,14 +71,6 @@
             "voiceList": []
         },
         {
-            "categoryName": "high",
-            "categoryDescription": {
-                "zh-CN": "精神高涨",
-                "ja-JP": "ハイテンション"
-            },
-            "voiceList": []
-        },
-        {
             "categoryName": "sing",
             "categoryDescription": {
                 "zh-CN": "唱歌",
@@ -86,8 +78,8 @@
             },
             "voiceList": [
                 {
-                    "name": "a-207",
-                    "path": "a-207.mp3",
+                    "name": "exp",
+                    "path": "exp.mp3",
                     "description": {
                         "zh-CN": "bad apple清唱",
                         "ja-JP": "bad apple"
