@@ -84,6 +84,14 @@
                         "zh-CN": "笑",
                         "ja-JP": "笑"
                     }
+                },
+                {
+                    "name": "a-6",
+                    "path": "a-6.mp3",
+                    "description": {
+                        "zh-CN": "banana",
+                        "ja-JP": "banana"
+                    }
                 }
             ]
         },
