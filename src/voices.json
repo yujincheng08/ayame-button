@@ -6,7 +6,24 @@
                 "zh-CN": "萌",
                 "ja-JP": "もえ"
             },
-            "voiceList": []
+            "voiceList": [
+                {
+                    "name": "a-1",
+                    "path": "a-1.mp3",
+                    "description": {
+                        "zh-CN": "狗狗喘气",
+                        "ja-JP": "息をする"
+                    }
+                },
+                {
+                    "name": "a-2",
+                    "path": "a-2.mp3",
+                    "description": {
+                        "zh-CN": "光速道歉*6",
+                        "ja-JP": "ごめん*6"
+                    }
+                }
+            ]
         },
         {
             "categoryName": "common",
@@ -76,15 +93,7 @@
                 "zh-CN": "唱歌",
                 "ja-JP": "うた"
             },
-            "voiceList": [
-                {
-                    "name": "exp",
-                    "path": "exp.mp3",
-                    "description": {
-                        "zh-CN": "bad apple清唱",
-                        "ja-JP": "bad apple"
-                    }
-                }]
+            "voiceList": []
         }
     ]
 }

@@ -7,7 +7,7 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_08487b9f3015_key -iv $encrypted_08487b9f3015_iv
   -in deploy_key.enc -out ./deploy_key -d
 - openssl aes-256-cbc -K $encrypted_08487b9f3015_key -iv $encrypted_08487b9f3015_iv
-  -in id_rsa.enc -out ~/.ssh/id_rsa -d
+  -in deploy_key.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 - echo -e "Host ${deploy_host}\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 after_success:
@@ -15,6 +15,6 @@ after_success:
 - tar zcvf ../ayame.tar.gz .
 - cd $TRAVIS_BUILD_DIR
 - scp -P $deploy_port -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
-  aqua.tar.gz ${deploy_user}@${deploy_host}:/var/www/aqua/
+  ayame.tar.gz ${deploy_user}@${deploy_host}:${deploy_path}
 - ssh -p $deploy_port -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
-  ${deploy_user}@${deploy_host} 'cd ${deploy_path} && tar zxvf ayame.tar.gz && rm -f aqua.tar.gz'
+  ${deploy_user}@${deploy_host} 'cd $deploy_path && tar zxvf ayame.tar.gz && rm -f ayame.tar.gz'
