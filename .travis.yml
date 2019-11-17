@@ -17,4 +17,4 @@ after_success:
 - scp -P $deploy_port -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
   ayame.tar.gz ${deploy_user}@${deploy_host}:${deploy_path}
 - ssh -p $deploy_port -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null
-  ${deploy_user}@${deploy_host} 'cd $deploy_path && tar zxvf ayame.tar.gz && rm -f ayame.tar.gz'
+  ${deploy_user}@${deploy_host} 'cd ${deploy_path} && tar zxvf ayame.tar.gz && rm -f ayame.tar.gz'
